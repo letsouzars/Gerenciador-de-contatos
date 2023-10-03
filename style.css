@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image: url(https://images2.alphacoders.com/130/1300854.jpg);
+    background-size: 100vw;
+}
+
+
+.container {
+    border: 2px solid #ffffff20;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    text-align: center;
+    max-width: 400px;
+    background-color: #ffffff10;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-right: 800px; 
+}
+
+
+
+
+
+#contato-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+#contato-form input,
+#como-podemos-ajudar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#como-podemos-ajudar {
+    height: 80px;
+}
+
+#contato-form button[type="submit"] {
+    background-color: #a74128;
+   
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    padding: 10px 20px;
+}
+
+.botoes {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.botoes button {
+    padding: 10px 20px;
+    background-color: #515a64;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+h1 {
+    font-size: 45px;
+    color: #ffff;
+    font-weight: 700;
+    font-family: 'Alice';
+    text-shadow: #515a64;
+}
+
+@font-face {
+    font-family: 'Alice';
+    src: url(Chomsky.otf);
+}
+
+li {
+    color: white;
+}
